@@ -16,6 +16,12 @@ __Warning__ : This was designed to run under a Windows environnement, adaption f
 
 You will need JavaFx 11 or more to run and compile this project
 
+You can download it here : https://gluonhq.com/products/javafx/
+
+Extract the archive's `lib` folder and rename it "javafx".
+
+Put the `javafx` folder in the `lib` folder
+
 Run `anltr-parse.bat` and `antlr-generate.bat`
 
 **If you use an IDE like IntelliJ or Eclipse**
