@@ -27,7 +27,7 @@ Then hit `Build` button
 
 Within the project folder, run in the terminal :
 
-`javac -cp /lib/*.jar src/*` 
+`javac -cp /lib/*.jar:lib/javafx/* src/*` 
 
 It should do the trick
 
@@ -40,7 +40,7 @@ Hit the Run button
 **If you use java**
 
 Within the project folder, run in the terminal :
-`java -cp lib/*.jar:bin/* logogui.Application`
+`java -cp lib/*.jar:lib/javafx/*:bin/* logogui.Application`
 
 A window should appear, you made it !
 
